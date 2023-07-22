@@ -1,22 +1,18 @@
+import links from '../../fixtures/socialMediaLinks.json'
+
 export default class SocialMediaLinks {
 	static checkFacebookLink() {
-		cy.get(
-			`.logo-footer-container.w-inline-block[href='https://www.facebook.com/AirportLabs']`
-		)
+		cy.get(links.facebook)
 			.should('have.attr', 'href')
 			.and('include', 'https://www.facebook.com/AirportLabs')
 	}
 	static checkInstagramLink() {
-		cy.get(
-			`.logo-footer-container.w-inline-block[href='https://www.instagram.com/airportlabspeople/']`
-		)
+		cy.get(links.instagram)
 			.should('have.attr', 'href')
 			.and('include', 'https://www.instagram.com/airportlabspeople/')
 	}
 	static checkLinkedInLink() {
-		cy.get(
-			`.logo-footer-container.w-inline-block[href='https://www.linkedin.com/company/airport-labs/']`
-		)
+		cy.get(links.linkedIn)
 			.should('have.attr', 'href')
 			.and('include', 'https://www.linkedin.com/company/airport-labs/')
 	}

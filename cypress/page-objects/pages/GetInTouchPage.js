@@ -1,13 +1,14 @@
+import contact from '../../fixtures/getInTouchPage.json'
 export default class GetInTouchPage {
 	static clickContactLink() {
-		cy.get('.nav-link---contact.w-inline-block').click()
+		cy.get(contact.contactLink).click()
 	}
 	static checkPageElements() {
-		cy.get('.display-heading.h1.left')
+		cy.get(contact.title)
 			.should('be.visible')
 			.and('have.text', "Let's get in touch")
-		cy.get(`div[class='header-section wf-section']`).should('be.visible')
-		cy.get('.load-second').should('be.visible')
-		cy.get('.w-layout-grid.contact-us').should('be.visible')
+		cy.get(contact.upperSection).should('be.visible')
+		cy.get(contact.secondSection).should('be.visible')
+		cy.get(contact.contactUs).should('be.visible')
 	}
 }

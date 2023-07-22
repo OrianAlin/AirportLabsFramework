@@ -1,0 +1,5 @@
+{
+	"instagram": ".logo-footer-container.w-inline-block[href='https://www.instagram.com/airportlabspeople/']",
+	"facebook": ".logo-footer-container.w-inline-block[href='https://www.facebook.com/AirportLabs']",
+	"linkedIn": ".logo-footer-container.w-inline-block[href='https://www.linkedin.com/company/airport-labs/']"
+}
