@@ -1,0 +1,6 @@
+export const url = 'https://www.airportlabs.com/'
+export const yourName = 'Alin Orian'
+export const companyName = 'My Company'
+export const email = 'alinorian9@gmail.com'
+export const contactNumber = '4524234234'
+export const message = 'I would like to discuss more about your products'

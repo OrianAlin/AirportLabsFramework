@@ -23,3 +23,20 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add(
+	'submitForm',
+	(yourName, companyName, email, contactNumber, message) => {
+		cy.get('#w-node-_0d30e78c-bcdd-6a6d-b59a-28985b6b320b-91e38efd').should(
+			'be.visible'
+		)
+		cy.get('#Your-Name').type(yourName)
+		cy.get('#Company-Name').type(companyName)
+		cy.get('#email').type(email)
+		cy.get('#Contact-Number').type(contactNumber)
+		cy.get('#Message').type(message)
+		cy.get(
+			'.w-checkbox-input.w-checkbox-input--inputType-custom.checkbox'
+		).click()
+		// cy.contains(`input[value='Submit Application']`).click()
+	}
+)
