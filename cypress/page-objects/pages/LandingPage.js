@@ -14,7 +14,7 @@ export default class LandingPage {
 				expect(img.naturalWidth).to.equal(176)
 				expect(img.naturalHeight).to.equal(172)
 			})
-		// cy.get('.image-6').invoke('outerWidth').should('be.lt', 44)
-		// cy.get('.image-6').invoke('outerHeight').should('be.lt', 43)
+		// cy.get(landingPage.communityAppImg).invoke('outerWidth').should('be.lt', 44)
+		// cy.get(landingPage.communityAppImg).invoke('outerHeight').should('be.lt', 43)
 	}
 }
