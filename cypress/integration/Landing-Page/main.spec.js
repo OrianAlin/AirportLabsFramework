@@ -31,4 +31,7 @@ describe('AirportLabs Framework', () => {
 	it('Check AirPortLabs logo', () => {
 		LandingPage.checkLogoImage()
 	})
+	afterEach(function () {
+		cy.screenshot()
+	})
 })
