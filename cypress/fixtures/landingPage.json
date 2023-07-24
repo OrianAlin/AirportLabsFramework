@@ -1,4 +1,8 @@
 {
 	"communityAppTitle": "#w-tabs-0-data-w-pane-0 > div > div > a:nth-child(2) > h4",
-	"communityAppImg": ".image-7"
+	"communityAppImg": ".image-7",
+	"activitySectionTitle": "body > div.load-second > div.our-impact.wf-section > div.container-8.w-container > h2",
+	"landingPageTitle": "body > div.load-second > h2",
+	"usersStatisticNumber": "body > div.load-second > div.our-impact.wf-section > div:nth-child(2) > div:nth-child(1) > h2",
+	"usersNumberDescription": "body > div.load-second > div.our-impact.wf-section > div:nth-child(2) > div:nth-child(1) > h4"
 }

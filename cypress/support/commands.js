@@ -34,6 +34,6 @@ Cypress.Commands.add(
 		cy.get(contact.contactNumber).type(contactNumber)
 		cy.get(contact.message).type(message)
 		cy.get(contact.checkbox).click()
-		cy.get(`input[value='Submit Application']`).click()
+		cy.get(contact.submitButton).click()
 	}
 )

@@ -28,7 +28,10 @@ describe('AirportLabs Framework', () => {
 		SocialMediaLinks.checkInstagramLink()
 		SocialMediaLinks.checkLinkedInLink()
 	})
-	it('Check AirPortLabs logo', () => {
+	it('Should check Statistic from LandingPage', () => {
+		LandingPage.checkStatistic()
+	})
+	it('Check Community App logo', () => {
 		LandingPage.checkLogoImage()
 	})
 	afterEach(function () {

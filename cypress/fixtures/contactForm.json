@@ -5,5 +5,6 @@
 	"email": "#email",
 	"contactNumber": "#Contact-Number",
 	"message": "#Message",
-	"checkbox": ".w-checkbox-input.w-checkbox-input--inputType-custom.checkbox"
+	"checkbox": ".w-checkbox-input.w-checkbox-input--inputType-custom.checkbox",
+	"submitButton": "input[value='Submit Application']"
 }
